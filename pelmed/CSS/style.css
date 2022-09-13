@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    --main-color: #14cece;
+    --second-color: #14cece;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 20px !important;
+    margin-bottom: 0;
+}
+
+a{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    text-decoration: navajowhite;
+}
+
+.navbar{
+    background: transparent;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#home{
+    background: url(../aset/3.jpg);
+    background-position: 0 -250px;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+#home .row{
+    vertical-align: initial;
+    height: inherit;
+}
+
+.img-about{
+    width: 100%;
+    height: 80%;
+}
+.img-about0{
+    width: 50%;
+    height: 50%;
+}
+
+#education{
+    background-color: var(--main-color);
+}
+
+.card{
+    border-radius: 0px;
+}
+
+.number{
+    background-color: var(--main-color);
+    color: rgb(59, 219, 166);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#organization{
+    background: url(../asset/4.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+.img-organization{
+    color: rgb(34, 109, 68) !important;
+    max-width: 400px;
+}
+
+.img-certification{
+    width: 100%;
+    background-size: cover;
+}
+
+.btn-primary{
+    color: mediumseagreen !important;
+    margin-top: 30px;
+    border-radius: 0px !important;
+    width: 100px;
+    font-size: 13px;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover{
+    background-color:mediumseagreen !important;
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+#contact{
+    background-color: var(--main-color);
+}
+
+#contact a{
+    color:mediumseagreen!important;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#footer .copyrights{
+    margin-top: 50px;
+    color: mediumaquamarine;
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+#footer .copyrights p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
